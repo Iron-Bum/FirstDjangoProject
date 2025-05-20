@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2752191-bdbb-4cf8-b59a-b5e65f29dfce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DjangoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/second_task/class_task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/second_task/function_task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/second_task/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="a2752191-bdbb-4cf8-b59a-b5e65f29dfce" name="Changes" comment="v1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/PaytonProjects/DjangoProject/mysite/manage.py",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -133,6 +116,27 @@
       <option name="presentableId" value="Default" />
       <updated>1747311548953</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1">
+      <option name="closed" value="true" />
+      <created>1747738309099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747738309099</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v1">
+      <option name="closed" value="true" />
+      <created>1747738356587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747738356587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
   </component>
 </project>
