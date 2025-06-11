@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2752191-bdbb-4cf8-b59a-b5e65f29dfce" name="Changes" comment="v1">
-      <change afterPath="$PROJECT_DIR$/mysite/example1/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/example2/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/main_page/main_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/example3/appointment/appointment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/main_page/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/templates/main_page/market.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/example1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/example1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/example2/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/example2/url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/example2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/example2/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/second_task/function_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/second_task/function_task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/second_task/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/second_task/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/main_page/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/main_page/main_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Iron-Bum"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Iron-Bum&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Iron-Bum/FirstDjangoProject.git",
-    "accountId": "ce576165-f56c-4d45-b350-691f34cdbf03"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Iron-Bum/FirstDjangoProject.git&quot;,
+    &quot;accountId&quot;: &quot;ce576165-f56c-4d45-b350-691f34cdbf03&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mysite/mysite/urls.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -58,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.appointment.executor": "Run",
     "Python.main.executor": "Run",
     "Python.mysite.executor": "Run",
     "Python.settings.executor": "Run",
@@ -72,7 +71,7 @@
       <recent name="D:\PaytonProjects\DjangoProject\mysite\templates\second_task" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mysite">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DjangoProject" />
       <option name="ENV_FILES" value="" />
@@ -171,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747739129699</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1">
+      <option name="closed" value="true" />
+      <created>1747766178653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747766178653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
