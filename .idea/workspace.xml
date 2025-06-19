@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2752191-bdbb-4cf8-b59a-b5e65f29dfce" name="Changes" comment="v1">
-      <change afterPath="$PROJECT_DIR$/mysite/example3/appointment/appointment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/main_page/card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/main_page/market.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/example2/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/example2/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/example2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/example2/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/main_page/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/main_page/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/example3/appointment/appointment.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/example3/appointment/appointment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +55,7 @@
     "Python.main.executor": "Run",
     "Python.mysite.executor": "Run",
     "Python.settings.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/PaytonProjects/DjangoProject/mysite/manage.py",
@@ -178,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747766178653</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v1">
+      <option name="closed" value="true" />
+      <created>1749635890696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749635890698</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v1">
+      <option name="closed" value="true" />
+      <created>1749635916341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749635916341</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

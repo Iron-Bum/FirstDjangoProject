@@ -9,17 +9,12 @@ class Service:
 
 
 class Master:
-    def __init__(self, name: str):
+    def __init__(self, name: str, specialties: list):
         self.name = name
-        self.service = []
+        self.specialties = specialties
         self.schedule = {}
 
-    def get_month_free_hours_dict(self, start=10, end=20, year=None, month=None):
-        """
-        Возвращает словарь: ключ — строка 'YYYY-MM-DD HH:MM', значение — True
-        для всех часов с 10:00 до 19:00 включительно на каждый день указанного месяца.
-        Если год и месяц не указаны — берёт текущие.
-        """
+    def get_month_free_hours_dict(self, start=10, end=21, slot=90, year=None, month=None):
         now = datetime.now()
         year = year or now.year
         month = month or now.month
@@ -34,15 +29,12 @@ class Master:
 
         day = first_day
         while day < next_month:
-            # Пропускаем выходные (если нужно)
-            # if day.weekday() >= 5:
-            #     day += timedelta(days=1)
-            #     continue
-
-            for hour in range(start, end):  # 10:00 до 19:00 включительно
-                dt = day.replace(hour=hour, minute=0, second=0, microsecond=0)
-                key = dt.strftime("%Y-%m-%d %H:%M")
+            slot_time = day.replace(hour=start, minute=0, second=0, microsecond=0)
+            end_time = day.replace(hour=end, minute=0, second=0, microsecond=0)
+            while slot_time < end_time:
+                key = slot_time.strftime("%Y-%m-%d %H:%M")
                 self.schedule[key] = True
+                slot_time += timedelta(minutes=slot)
             day += timedelta(days=1)
 
     def is_available(self, appointment_time: datetime):
@@ -95,18 +87,44 @@ class Appointment:
         self.confirmed = False
 
 
-inna = Master('Инна')
-dt1 = datetime(2025, 6, 1, 12)
-dt5 = datetime(2025, 6, 1, 11)
-inna.get_month_free_hours_dict()
-inna.book_time(dt5)
-print(inna.schedule)
-inna.cancel_time(dt5)
-print(inna.schedule)
-print(inna.is_available(dt5))
+class Salon:
+    def __init__(self, name: str):
+        self.name = name
+        self.clients = []
+        self.masters = []
+        self.appointments = []
 
+    def add_master(self, master: Master):
+        self.masters.append(master)
 
-hairXL = Service('покраскаXL', '4700', '1500')
-alla = Client('Алла', '+79265550077')
+    def find_master(self, time: datetime, specialty: Service, master: Master = None):
+        for m in self.masters:
+            if (
+                    (master is None or m == master)
+                    and specialty in m.specialties
+                    and m.is_available(time)
+            ):
+                return m
+        return None
+
+    def add_client(self, client: Client):
+        self.clients.append(client)
+
+    def book_appointment(
+            self,
+            service: Service,
+            master: Master,
+            client: Client,
+            appointment_time: datetime,
+            description: str = ''
+    ):
+        free_master = self.find_master(appointment_time, service, master)
+        if not free_master:
+            return None
+        appointment = Appointment(appointment_time, master, client, service, description)
+        self.appointments.append(appointment)
+        client.add_appointment(appointment)
+        master.book_time(appointment_time)
+        return appointment
 
 
